@@ -1,0 +1,23 @@
+Begin Object Class=/Script/Engine.Skeleton Name="SK_Bot" ExportPath="/Script/Engine.Skeleton'/Game/StackOBot/Characters/Bot/Mesh/SK_Bot.SK_Bot'"
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_1" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/StackOBot/Characters/Bot/Mesh/SK_Bot.SK_Bot:SkeletalMeshSocket_1'"
+   End Object
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/StackOBot/Characters/Bot/Mesh/SK_Bot.SK_Bot:AnimCurveMetaData_0'"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_1" ExportPath="/Script/Engine.SkeletalMeshSocket'/Game/StackOBot/Characters/Bot/Mesh/SK_Bot.SK_Bot:SkeletalMeshSocket_1'"
+      SocketName="BackpackSocket"
+      BoneName="spine_03"
+      RelativeLocation=(X=-0.000001,Y=0.000025,Z=-13.343653)
+      RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-90.000000)
+   End Object
+   Begin Object Name="AnimCurveMetaData_0" ExportPath="/Script/Engine.AnimCurveMetaData'/Game/StackOBot/Characters/Bot/Mesh/SK_Bot.SK_Bot:AnimCurveMetaData_0'"
+      CurveMetaData=(("IKBlend_l", ()),("IK_blend_interact", ()),("neck_01", ()),("head", ()),("upperarm_r", ()),("lowerarm_r", ()))
+   End Object
+   BoneTree(52)=()
+   VirtualBoneGuid=70BBE2414A82D8F4B66FDCBB7DFA882F
+   Sockets(0)="/Script/Engine.SkeletalMeshSocket'SkeletalMeshSocket_1'"
+   SlotGroups(0)=(SlotNames=("DefaultSlot","UpperBody"))
+   PreviewSkeletalMesh="/Game/StackOBot/Characters/Bot/Mesh/SKM_Bot.SKM_Bot"
+   RigConfig=(Rig="/Script/Engine.Rig'/Engine/EngineMeshes/Humanoid.Humanoid'",BoneMappingTable=((NodeName="Root",BoneName="Root"),(NodeName="Pelvis",BoneName="Pelvis"),(NodeName="spine_01",BoneName="spine_01"),(NodeName="spine_02",BoneName="spine_02"),(NodeName="spine_03",BoneName="spine_03"),(NodeName="clavicle_l",BoneName="clavicle_l"),(NodeName="UpperArm_L",BoneName="UpperArm_L"),(NodeName="lowerarm_l",BoneName="lowerarm_l"),(NodeName="Hand_L",BoneName="Hand_L"),(NodeName="index_01_l",BoneName="index_01_l"),(NodeName="index_02_l",BoneName="index_02_l"),(NodeName="index_03_l",BoneName="index_03_l"),(NodeName="middle_01_l",BoneName="middle_01_l"),(NodeName="middle_02_l",BoneName="middle_02_l"),(NodeName="middle_03_l",BoneName="middle_03_l"),(NodeName="pinky_01_l",BoneName="pinky_01_l"),(NodeName="pinky_02_l"),(NodeName="pinky_03_l",BoneName="pinky_03_l"),(NodeName="ring_01_l"),(NodeName="ring_02_l"),(NodeName="ring_03_l"),(NodeName="thumb_01_l",BoneName="thumb_01_l"),(NodeName="thumb_02_l",BoneName="thumb_02_l"),(NodeName="thumb_03_l",BoneName="thumb_03_l"),(NodeName="lowerarm_twist_01_l"),(NodeName="upperarm_twist_01_l"),(NodeName="clavicle_r",BoneName="clavicle_r"),(NodeName="UpperArm_R",BoneName="UpperArm_R"),(NodeName="lowerarm_r",BoneName="lowerarm_r"),(NodeName="Hand_R",BoneName="Hand_R"),(NodeName="index_01_r",BoneName="index_01_r"),(NodeName="index_02_r",BoneName="index_02_r"),(NodeName="index_03_r",BoneName="index_03_r"),(NodeName="middle_01_r",BoneName="middle_01_r"),(NodeName="middle_02_r",BoneName="middle_02_r"),(NodeName="middle_03_r",BoneName="middle_03_r"),(NodeName="pinky_01_r",BoneName="pinky_01_r"),(NodeName="pinky_02_r",BoneName="pinky_02_r"),(NodeName="pinky_03_r",BoneName="pinky_03_r"),(NodeName="ring_01_r"),(NodeName="ring_02_r"),(NodeName="ring_03_r"),(NodeName="thumb_01_r",BoneName="thumb_01_r"),(NodeName="thumb_02_r",BoneName="thumb_02_r"),(NodeName="thumb_03_r",BoneName="thumb_03_r"),(NodeName="lowerarm_twist_01_r"),(NodeName="upperarm_twist_01_r"),(NodeName="neck_01",BoneName="neck_01"),(NodeName="head",BoneName="head"),(NodeName="Thigh_L",BoneName="Thigh_L"),(NodeName="calf_l",BoneName="calf_l"),(NodeName="calf_twist_01_l"),(NodeName="Foot_L",BoneName="Foot_L"),(NodeName="ball_l"),(NodeName="thigh_twist_01_l"),(NodeName="Thigh_R",BoneName="Thigh_R"),(NodeName="calf_r",BoneName="calf_r"),(NodeName="calf_twist_01_r"),(NodeName="Foot_R",BoneName="Foot_R"),(NodeName="ball_r"),(NodeName="thigh_twist_01_r"),(NodeName="ik_foot_root"),(NodeName="ik_foot_l"),(NodeName="ik_foot_r"),(NodeName="ik_hand_root"),(NodeName="ik_hand_gun"),(NodeName="ik_hand_l"),(NodeName="ik_hand_r"),(NodeName="Custom_1"),(NodeName="Custom_2"),(NodeName="Custom_3"),(NodeName="Custom_4"),(NodeName="Custom_5")))
+   AnimationNotifies(0)="shake"
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+End Object

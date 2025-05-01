@@ -1,0 +1,57 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BP_Crate" ExportPath="/Script/Engine.Blueprint'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate'"
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:EventGraph'"
+      Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_33" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:EventGraph.EdGraphNode_Comment_33'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="UserConstructionScript" ExportPath="/Script/Engine.EdGraph'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:UserConstructionScript'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:UserConstructionScript.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:SceneThumbnailInfo_0'"
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:EventGraph'"
+      Begin Object Name="EdGraphNode_Comment_33" ExportPath="/Script/UnrealEd.EdGraphNode_Comment'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:EventGraph.EdGraphNode_Comment_33'"
+         CommentColor=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+         bCommentBubbleVisible_InDetailsPanel=False
+         NodePosX=32
+         NodePosY=-32
+         NodeWidth=784
+         NodeHeight=112
+         bCommentBubblePinned=False
+         bCommentBubbleVisible=False
+         NodeComment="The crate has no functionality. It is a blueprint for the physics setup.\r\nWe set mass and damping on the static mesh so players can push them around.  "
+         NodeGuid=CF79E6514C32F185B95D21923B274D50
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/UnrealEd.EdGraphNode_Comment'EdGraphNode_Comment_33'"
+      bAllowDeletion=False
+      GraphGuid=23567C6E4F404B7D13D4839C851CD858
+   End Object
+   Begin Object Name="UserConstructionScript" ExportPath="/Script/Engine.EdGraph'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:UserConstructionScript'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:UserConstructionScript.K2Node_FunctionEntry_0'"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="UserConstructionScript")
+         NodeGuid=C8D0050044337A47324FB4A6733B4567
+         CustomProperties Pin (PinId=A58C31A346841A9C5031FAB688DB30AB,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      bAllowDeletion=False
+      GraphGuid=6A02434F496DC073FAD4EB8D4FEB7BFD
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath="/Script/UnrealEd.SceneThumbnailInfo'/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:SceneThumbnailInfo_0'"
+   End Object
+   ParentClass="/Script/CoreUObject.Class'/Script/Engine.Actor'"
+   BlueprintSystemVersion=2
+   SimpleConstructionScript="/Script/Engine.SimpleConstructionScript'BP_Crate_C:SimpleConstructionScript_0'"
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   FunctionGraphs(0)="/Script/Engine.EdGraph'UserConstructionScript'"
+   CategorySorting(0)="Default"
+   CategorySorting(1)=""
+   CategorySorting(2)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:UserConstructionScript",SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/StackOBot/Blueprints/GameElements/BP_Crate.BP_Crate:EventGraph",SavedViewOffset=(X=-220.000000,Y=-252.000000),SavedZoomAmount=1.000000)
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   GeneratedClass="/Script/Engine.BlueprintGeneratedClass'BP_Crate_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=422DB58047D9AD27F283DFA93F9544DD
+End Object
