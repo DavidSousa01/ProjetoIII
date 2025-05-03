@@ -1,5 +1,6 @@
 #include "ProjetoIII/DavidSalazar.h"
 #include "Camera/CameraComponent.h"
+#include "DoorScriptBP.h"
 
 // Sets default values
 ADavidSalazar::ADavidSalazar()
@@ -38,6 +39,27 @@ void ADavidSalazar::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	PlayerInputComponent->BindAxis("TurnCameraX", this, &ADavidSalazar::TurnCameraX);
 	PlayerInputComponent->BindAxis("TurnCameraY", this, &ADavidSalazar::TurnCameraY);
 
+	PlayerInputComponent->BindAction("OpenDoor", IE_Pressed, this, &ADavidSalazar::OpenDoor);
+
+}
+
+void ADavidSalazar::OpenDoor()
+{
+	FHitResult HitResult;
+	FVector Start = Camera->GetComponentLocation();
+	FVector End = Start + Camera->GetForwardVector() * 200.0f;
+
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility, Params))
+	{
+		AActor* HitActor = HitResult.GetActor();
+		if (HitActor && HitActor->GetClass()->ImplementsInterface(UDoorScriptBP::StaticClass()))
+		{
+			IDoorScriptBP::Execute_OpenDoor(HitActor); // 'this' is the interactor
+		}
+	}
 }
 
 void ADavidSalazar::Vertical_Movement(float InputValue)
